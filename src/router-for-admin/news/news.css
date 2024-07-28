@@ -1,0 +1,5 @@
+/* src/components/NewsList.css */
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Adjust the height as needed */
+}

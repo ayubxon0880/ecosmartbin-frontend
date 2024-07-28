@@ -1,0 +1,19 @@
+/* src/components/AddMemberForm.css */
+.form-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+/* src/components/MemberList.css */
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Adjust the height as needed */
+}
