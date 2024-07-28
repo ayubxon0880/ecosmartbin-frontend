@@ -42,7 +42,7 @@ const NewsList = () => {
                     <Col md={4} lg={3} className="mb-4" key={article.id}>
                         <Card>
                             {article.images && article.images.length > 0 && (
-                                <Card.Img variant="top" src={article.images[0]} alt={article.title} />
+                                <Card.Img variant="top" src={article.images[0].url} alt={article.title} />
                             )}
                             <Card.Body>
                                 <Card.Title>{article.title}</Card.Title>
